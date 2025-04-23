@@ -23,5 +23,5 @@ jobs:
       - name: Run your script
         env:
           EMAIL_USER: ${{ secrets.EMAIL_USER }}        # Secret email value yahan pass hoga
-          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASSWORD }} # Secret password value yahan pass hoga
+          EMAIL_PASSWORD: ${{ secrets.EMAIL_PASS }} # Secret password value yahan pass hoga
         run: python birthday.py
